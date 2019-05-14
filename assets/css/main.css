@@ -1,0 +1,5011 @@
+@media (max-width: 960px) {
+    .desktop--only {
+        display: none
+    }
+
+    .frame {
+        display: none
+    }
+}
+
+@media (min-width: 961px) {
+    .mobile--only {
+        display: none
+    }
+}
+
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+}
+
+body {
+    margin: 0
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+    display: block
+}
+
+audio,
+canvas,
+progress,
+video {
+    display: inline-block;
+    vertical-align: baseline
+}
+
+audio:not([controls]) {
+    display: none;
+    height: 0
+}
+
+[hidden],
+template {
+    display: none
+}
+
+a {
+    background-color: transparent
+}
+
+a:active,
+a:hover {
+    outline: 0
+}
+
+abbr[title] {
+    border-bottom: 1px dotted
+}
+
+b,
+strong {
+    font-weight: bold
+}
+
+dfn {
+    font-style: italic
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0
+}
+
+mark {
+    background: #ff0;
+    color: #000
+}
+
+small {
+    font-size: 80%
+}
+
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline
+}
+
+sup {
+    top: -0.5em
+}
+
+sub {
+    bottom: -0.25em
+}
+
+img {
+    border: 0
+}
+
+svg:not(:root) {
+    overflow: hidden
+}
+
+figure {
+    margin: 1em 40px
+}
+
+hr {
+    box-sizing: content-box;
+    height: 0
+}
+
+pre {
+    overflow: auto
+}
+
+code,
+kbd,
+pre,
+samp {
+    font-family: monospace, monospace;
+    font-size: 1em
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0
+}
+
+button {
+    overflow: visible
+}
+
+button,
+select {
+    text-transform: none
+}
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer
+}
+
+button[disabled],
+html input[disabled] {
+    cursor: default
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0
+}
+
+input {
+    line-height: normal
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    box-sizing: border-box;
+    padding: 0
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    height: auto
+}
+
+input[type="search"] {
+    -webkit-appearance: textfield;
+    box-sizing: content-box
+}
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none
+}
+
+fieldset {
+    border: 1px solid #c0c0c0;
+    margin: 0 2px;
+    padding: 0.35em 0.625em 0.75em
+}
+
+legend {
+    border: 0;
+    padding: 0
+}
+
+textarea {
+    overflow: auto
+}
+
+optgroup {
+    font-weight: bold
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+td,
+th {
+    padding: 0
+}
+
+@font-face {
+    font-family: 'ge-inspira-sans-regular';
+    src: url("../fonts/ge-inspira-sans/ge-inspira-regular.txt");
+    src: url("../fonts/ge-inspira-sans/ge-inspira-regular.eot") format("embedded-opentype"), url("../fonts/ge-inspira-sans/ge-inspira-regular-1.txt") format("woff2"), url("../fonts/ge-inspira-sans/ge-inspira-regular-2.txt") format("woff"), url("../fonts/ge-inspira-sans/ge-inspira-regular.txt") format("truetype"), url("../fonts/ge-inspira-sans/ge-inspira-regular.svg") format("svg")
+}
+
+@font-face {
+    font-family: 'ge-inspira-sans-bold-italic';
+    src: url("../fonts/ge-inspira-sans/ge-inspira-bold-italic.txt");
+    src: url("../fonts/ge-inspira-sans/ge-inspira-bold-italic.eot") format("embedded-opentype"), url("../fonts/ge-inspira-sans/ge-inspira-bold-italic-1.txt") format("woff2"), url("../fonts/ge-inspira-sans/ge-inspira-bold-italic-2.txt") format("woff"), url("../fonts/ge-inspira-sans/ge-inspira-bold-italic.txt") format("truetype"), url("../fonts/ge-inspira-sans/ge-inspira-bold-italic.svg") format("svg")
+}
+
+@font-face {
+    font-family: 'ge-inspira-sans-bold';
+    src: url("../fonts/ge-inspira-sans/ge-inspira-bold.txt");
+    src: url("../fonts/ge-inspira-sans/ge-inspira-bold.eot") format("embedded-opentype"), url("../fonts/ge-inspira-sans/ge-inspira-bold-1.txt") format("woff2"), url("../fonts/ge-inspira-sans/ge-inspira-bold-2.txt") format("woff"), url("../fonts/ge-inspira-sans/ge-inspira-bold.txt") format("truetype"), url("../fonts/ge-inspira-sans/ge-inspira-bold.svg") format("svg")
+}
+
+@font-face {
+    font-family: 'ge-inspira-sans-italic';
+    src: url("../fonts/ge-inspira-sans/ge-inspira-italic.txt");
+    src: url("../fonts/ge-inspira-sans/ge-inspira-italic.eot") format("embedded-opentype"), url("../fonts/ge-inspira-sans/ge-inspira-italic-1.txt") format("woff2"), url("../fonts/ge-inspira-sans/ge-inspira-italic-2.txt") format("woff"), url("../fonts/ge-inspira-sans/ge-inspira-italic.txt") format("truetype"), url("../fonts/ge-inspira-sans/ge-inspira-italic.svg") format("svg")
+}
+
+.tk-ge-inspira-sans-regular {
+    font-family: "ge-inspira-sans-regular", sans-serif;
+}
+
+.tk-tenez {
+    font-family: "ge-inspira-sans-bold", sans-serif;
+}
+
+html,
+body {
+    height: 100%
+}
+
+html.modal--lock,
+body.modal--lock {
+    overflow-y: hidden
+}
+
+body {
+    width: 100vw;
+    overflow-x: hidden;
+    overflow-y: visible;
+    font-family: "ge-inspira-sans-regular", sans-serif;
+    font-size: 20px;
+    background: #20293b;
+    color: #efefef
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 900
+}
+
+img,
+canvas {
+    display: block
+}
+
+img:not(#lastJudgement-sequence),
+canvas:not(#lastJudgement-sequence) {
+    max-width: 100%;
+    margin: 0 auto
+}
+
+figure {
+    margin: 0
+}
+
+.opac0 {
+    opacity: 0
+}
+
+.opac25 {
+    opacity: 0.25
+}
+
+.opac50 {
+    opacity: 0.5
+}
+
+.pointerNone {
+    pointer-events: none
+}
+
+.main {
+    opacity: 0
+}
+
+.main.is-loaded {
+    max-height: 0;
+    overflow: initial;
+    opacity: 1;
+    transition: 1s opacity ease-out
+}
+
+.main-loader {
+    position: fixed;
+    background-color: #294177
+}
+
+.beat-loader {
+    position: absolute;
+    background: #294177
+}
+
+.main-loader,
+.beat-loader {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column
+}
+
+.main-loader.is-loaded,
+.beat-loader.is-loaded {
+    display: none
+}
+
+.loader-anim {
+    position: relative;
+    width: 256px;
+    height: 256px;
+    overflow: hidden;
+    display: block
+}
+
+.loader-anim:before {
+    width: 256px;
+    height: 256px;
+    background-image: url("https://notre-dame-de-paris-1257401906.cos.ap-chengdu.myqcloud.com/webp/logo.webp");
+    content: '';
+    display: block;
+    position: absolute;
+}
+
+
+@keyframes sprite-animation {
+    from {
+        transform: translate3d(0, 0, 0)
+    }
+
+    to {
+        transform: translate3d(0, -12850px, 0)
+    }
+}
+
+.loader-logo {
+    display: block;
+    margin-top: 27px
+}
+
+@media only screen and (max-width: 960px) and (orientation: landscape) {
+
+    body,
+    html {
+        height: 100vh;
+        overflow: hidden
+    }
+}
+
+.landscape {
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(155, 155, 155, 0.5);
+    transition: opacity 350ms ease 500ms
+}
+
+@media only screen and (max-width: 960px) and (orientation: landscape) {
+    .landscape {
+        pointer-events: auto;
+        opacity: 1
+    }
+}
+
+.beat-copy p {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 32px;
+    color: rgba(255, 255, 255, 0.8);
+    opacity: 0;
+    margin-left: 28px;
+}
+
+.landscape section {
+    background-color: #ffffffcc;
+    height: 80vh;
+    overflow: hidden;
+    width: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10vh;
+    box-sizing: border-box;
+    align-items: center;
+    display: flex
+}
+
+.landscape section p {
+    user-select: none;
+    font-size: 16px;
+    margin-bottom: 0;
+    font-weight: 300;
+    line-height: 32px;
+    color: black
+}
+
+.absolute {
+    position: absolute
+}
+
+.fixed {
+    position: fixed
+}
+
+.relative {
+    position: relative
+}
+
+.t0 {
+    top: 0
+}
+
+.l0 {
+    left: 0
+}
+
+.r0 {
+    right: 0
+}
+
+.b0 {
+    bottom: 0
+}
+
+.w100 {
+    width: 100vw
+}
+
+.w100p {
+    width: 100%
+}
+
+.h100 {
+    height: 100vh
+}
+
+.w200 {
+    width: 200vw
+}
+
+.h200 {
+    height: 200vh
+}
+
+.maxW500 {
+    max-width: 500px
+}
+
+#team-modal--4 .maxW350 {
+    max-width: 350px;
+    margin: 0 auto
+}
+
+.maxW350 {
+    max-width: 350px
+}
+
+.minH100 {
+    min-height: 100vh
+}
+
+.minW75p {
+    min-width: 75%
+}
+
+.h100p {
+    height: 100%
+}
+
+.flex {
+    display: flex
+}
+
+.grow1 {
+    flex-grow: 1
+}
+
+.lastbtn {
+    margin: 0 auto
+}
+
+.responsiveRow {
+    display: flex;
+    flex-direction: row
+}
+
+@media (max-width: 960px) {
+    .responsiveRow {
+        flex-direction: column
+    }
+}
+
+@media (max-width: 960px) {
+    .alignStartMobile {
+        align-items: flex-start
+    }
+}
+
+@media (min-width: 961px) {
+    .alignCenterDesktop {
+        align-items: center
+    }
+}
+
+@media (max-width: 960px) {
+    .justifyStartMobile {
+        justify-content: flex-start
+    }
+}
+
+@media (max-width: 960px) {
+    .selfCenterMobile {
+        align-self: center
+    }
+}
+
+@media (min-width: 961px) {
+    .justifyCenterDesktop {
+        justify-content: center
+    }
+}
+
+.flexWrap {
+    flex-wrap: wrap
+}
+
+.flexRow {
+    display: flex;
+    flex-direction: row
+}
+
+.flexColumn {
+    display: flex;
+    flex-direction: column
+}
+
+.justifyCenter {
+    justify-content: center
+}
+
+.justifyStart {
+    justify-content: flex-start
+}
+
+.justifyEnd {
+    justify-content: flex-end
+}
+
+.alignStart {
+    align-items: flex-start
+}
+
+.alignEnd {
+    align-items: flex-end
+}
+
+.alignCenter {
+    align-items: center
+}
+
+.spaceBetween {
+    justify-content: space-between;
+    margin-top: 10px
+}
+
+.spaceAround {
+    justify-content: space-around
+}
+
+#team-modal--7 .copy .body {
+    margin-top: 10px;
+    display: inline-block;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 32px;
+    margin: 0;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.selfStart {
+    align-self: flex-start
+}
+
+.mr40 {
+    margin-right: 40px
+}
+
+.mr60 {
+    margin-right: 60px
+}
+
+@media (min-width: 961px) {
+    .mr60Desktop {
+        margin-right: 60px
+    }
+}
+
+@media (max-width: 960px) {
+    .mt60Mobile {
+        margin-top: 60px
+    }
+}
+
+@media (min-width: 961px) {
+    .mrt0Desktop {
+        margin-right: 60px
+    }
+}
+
+.my60 {
+    margin: 60px 0
+}
+
+.my10 {
+    margin: 10px 0
+}
+
+.mt10 {
+    margin-top: 10px
+}
+
+.my20 {
+    margin: 20px 0
+}
+
+.mb20 {
+    margin-bottom: 20px
+}
+
+.mb60 {
+    margin-bottom: 60px
+}
+
+#team-modal--4 .mb60 {
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+
+#team-modal--3 .mb60 {
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+
+.team-modal--2 .mb60 {
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+
+.mb80 {
+    margin-bottom: 80px
+}
+
+.ml80 {
+    margin-left: 80px
+}
+
+.mt60 {
+    margin-top: 60px
+}
+
+.mt400 {
+    margin-top: 400px
+}
+
+.py20 {
+    padding: 20px 0
+}
+
+.pb20 {
+    padding-bottom: 20px
+}
+
+.py40 {
+    padding: 40px 0
+}
+
+.pr40 {
+    padding-right: 40px
+}
+
+.py60 {
+    padding: 60px 0
+}
+
+.pt60 {
+    padding-top: 60px
+}
+
+.pb60 {
+    padding-bottom: 60px
+}
+
+.p80 {
+    padding: 80px
+}
+
+.px80 {
+    padding: 0 80px
+}
+
+.pb100 {
+    padding-bottom: 100px
+}
+
+.pb160 {
+    padding-bottom: 160px
+}
+
+.borderBox {
+    box-sizing: border-box
+}
+
+.textCenter {
+    text-align: center
+}
+
+@media (max-width: 960px) {
+    .hideMobile {
+        display: none
+    }
+}
+
+.copy .name {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    line-height: 14px
+}
+
+.copy .cv {
+    font-weight: light;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(255, 255, 255, 0.5)
+}
+
+.copy .bio {
+    font-size: 20px;
+    font-weight: light;
+    line-height: 32px
+}
+
+.copy .italic {
+    font-style: italic
+}
+
+.copy .quote {
+    max-width: 920px;
+    padding: 0 30px;
+    box-sizing: border-box;
+    font-family: "Playfair Display";
+    text-align: center;
+    font-size: 32px;
+    line-height: 40px
+}
+
+@media (min-width: 961px) {
+    .copy .quote {
+        font-size: 48px;
+        line-height: 64px
+    }
+}
+
+.copy .author {
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 4px;
+    line-height: 14px
+}
+
+.copy .title-eyebrow {
+    font-family: "Playfair Display";
+    font-size: 18px;
+    font-style: italic;
+    line-height: 27px;
+    color: rgba(255, 255, 255, 0.8);
+    display: block;
+    opacity: 0
+}
+
+.fade-in .copy .title-eyebrow {
+    opacity: 1
+}
+
+.copy .title-eyebrow:before {
+    content: '';
+    height: 1px;
+    width: 32px;
+    background: rgba(255, 255, 255, 0.8);
+    margin: 0 6px 6px -16px;
+    display: inline-block
+}
+
+.copy .big-title {
+    font-family: "Playfair Display", serif;
+    font-weight: normal;
+    margin: 0;
+    font-size: 64px
+}
+
+@media (min-width: 961px) {
+    .copy .big-title {
+        font-size: 60px;
+        line-height: 1.33333
+    }
+}
+
+.copy .title {
+    color: #fff;
+    font-family: "Playfair Display", serif;
+    font-size: 48px;
+    line-height: 64px;
+    font-weight: 300;
+    margin: 0 0 17px
+}
+
+.a48 {
+    font-size: 48px !important;
+    font-family: "Playfair Display", serif;
+}
+
+.copy .longTitle {
+    color: #fff;
+    font-family: "Playfair Display", serif;
+    font-size: 40px;
+    line-height: 56px;
+    font-weight: 300;
+    margin: 0;
+    max-width: 1280px;
+}
+
+#predictiveContainer2 .copy .longTitle {
+    color: #fff;
+    font-family: "Playfair Display", serif;
+    font-size: 22px;
+    line-height: 56px;
+    font-weight: 300;
+    margin: 0;
+    max-width: 1280px;
+}
+
+#beginningContainer .copy .longTitle {
+    color: #fff;
+    font-size: 48px;
+    margin-top: 100px;
+    font-family: "Playfair Display", serif;
+    line-height: 56px;
+    font-weight: 300;
+    max-width: 1280px
+}
+
+#introContainer .beat-copy p {
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 32px;
+    color: rgb(255, 255, 255);
+    margin-left: 28px;
+    max-width: 600px;
+}
+
+#architectureTitleContainer .beat-copy {
+    top: 48 !important;
+}
+
+#volcanoContainer .beat-copy p {
+    max-width: 1000px;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 32px;
+    color: rgb(255, 255, 255);
+    margin-left: 28px;
+}
+
+#judgementContainer .beat-copy p {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 32px;
+    margin-left: 28px;
+    text-align: left !important;
+}
+
+#architectureTitleContainer .beat-copy p {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 32px;
+    color: rgba(255, 255, 255, 0.8);
+    margin-left: 28px;
+    max-width: 900px;
+}
+
+#worldWrap .beat-copy p {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 32px;
+    color: rgba(255, 255, 255, 0.8);
+    margin-left: 28px;
+    max-width: 1000px;
+}
+
+#worldWrap {
+    background-image: url("https://notre-dame-de-paris-1257401906.cos.ap-chengdu.myqcloud.com/webp/starts.webp");
+    background-size: contain;
+    background-position: center center
+}
+
+@media (max-width: 960px) {
+    #predictiveContainer2 .copy .longTitle {
+        font-size: 18px;
+        line-height: 32px;
+        margin-top: 100px;
+    }
+
+    #judgementContainer .copy .longTitle {
+        font-size: 24px;
+        line-height: 60px;
+        margin: 0
+    }
+
+    #rosesWindowContainer .copy .longTitle {
+        font-size: 22px;
+        margin: 0
+    }
+
+    #judgementContainer2 .copy .longTitle {
+        font-size: 22px;
+        line-height: 36px;
+        margin: 0
+    }
+
+    #judgementIntro .copy .longTitle {
+        font-size: 22px;
+        line-height: 64px;
+        margin: 0
+    }
+
+    #judgementContainer .copy .big-title {
+        font-size: 30px;
+        line-height: 44px;
+        margin-left: 16px;
+    }
+
+    #judgementContainer .beat-copy p {
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 32px;
+        margin-left: 28px;
+        text-align: left !important;
+    }
+
+    #pageWrapper .beat-copy p {
+        display: inline-block;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 32px;
+        color: rgba(255, 255, 255, 0.8);
+        opacity: 0;
+        margin-left: 28px;
+        max-width: 500px;
+    }
+
+    #judgementContainer .beat--fixed--container .copy .body {
+        margin-left: 10px !important;
+        line-height: 30px !important;
+        text-align: left !important;
+        font-size: 16px !important;
+    }
+
+    .pcenter {
+        text-align: center !important;
+        margin: 0 auto !important;
+        padding: 0 !important
+    }
+}
+
+.copy .mediumTitle {
+    color: #fff;
+    font-family: "Playfair Display", serif;
+    font-size: 40px;
+    line-height: 56px;
+    font-weight: 300;
+    margin: 0 auto;
+    max-width: 951px
+}
+
+@media (max-width: 960px) {
+    .copy .mediumTitle {
+        font-size: 24px;
+        line-height: 40px
+    }
+}
+
+.copy .body {
+    display: inline-block;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 32px;
+    margin: 0;
+    color: rgba(255, 255, 255, 0.8)
+}
+
+#judgementContainer .beat--fixed--container .copy .body {
+    text-align: left;
+    line-height: 28px;
+
+}
+
+#judgementContainer .beat--fixed--container .copyAlignCover p {
+    text-align: left;
+    line-height: 28px;
+}
+
+.copy .headline {
+    font-family: "ge-inspira-sans-regular", sans-serif;
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    margin: 0;
+    padding: 1em;
+    letter-spacing: 4px
+}
+
+.wideCopy {
+    box-sizing: border-box;
+    padding: 0 80px;
+    width: 100%
+}
+
+@media (max-width: 960px) {
+    .wideCopy {
+        padding: 0 20px
+    }
+}
+
+.wideCopyLimit {
+    box-sizing: border-box;
+    padding: 0 160px;
+    max-width: 1080px
+}
+
+@media (max-width: 960px) {
+    .wideCopyLimit {
+        padding: 0 20px
+    }
+}
+
+.limitBody {
+    max-width: 400px
+}
+
+.limitModal {
+    max-width: 615px
+}
+
+.limitConclusion {
+    max-width: 863px
+}
+
+.limitCrater {
+    max-width: 650px !important
+}
+
+.copyT50 {
+    transform: translateY(50px)
+}
+
+@media (max-width: 960px) {
+
+    #predictiveContainer .copyT50 {
+        margin: 0 auto;
+    }
+
+    #predictiveContainer .limitBody {
+        text-align: center;
+    }
+}
+
+
+.copyT100 {
+    transform: translateY(100px)
+}
+
+.copyT150 {
+    transform: translateY(150px)
+}
+
+.copyAlign {
+    box-sizing: border-box;
+    max-width: 1080px;
+    margin: auto auto
+}
+
+@media (max-width: 960px) {
+    .copyAlign {
+        max-width: 372px;
+        padding: 0 20px
+    }
+}
+
+.smallAlign {
+    box-sizing: border-box;
+    max-width: 1280px;
+    margin: 0 auto
+}
+
+@media (max-width: 960px) {
+    .smallAlign {
+        max-width: 372px;
+        padding: 0 20px
+    }
+}
+
+.mediumAlign {
+    box-sizing: border-box;
+    max-width: 951px;
+    margin: 0 auto
+}
+
+@media (max-width: 960px) {
+    .mediumAlign {
+        max-width: 372px;
+        padding: 0 20px
+    }
+}
+
+.copyAlignCover {
+    box-sizing: border-box;
+    max-width: 1080px
+}
+
+@media (min-width: 961px) {
+    .copyAlignCover {
+        margin-left: calc(45% - 440px)
+    }
+}
+
+@media (max-width: 960px) {
+    .copyAlignCover {
+        max-width: 372px;
+        padding: 0 20px
+    }
+}
+
+.wideAlign {
+    box-sizing: border-box;
+    max-width: 1045px;
+    margin: 0 auto;
+    padding-top: 100px;
+
+}
+
+@media (max-width: 960px) {
+    .wideAlign {
+        max-width: 372px;
+        padding: 0 20px
+    }
+}
+
+.levelsAlign {
+    box-sizing: border-box;
+    max-width: 729px;
+    margin: 0 auto
+}
+
+@media (max-width: 960px) {
+    .levelsAlign {
+        max-width: 372px;
+        padding: 0 20px
+    }
+}
+
+.line24 {
+    line-height: 24px !important
+}
+
+.noWrap {
+    white-space: nowrap
+}
+
+.preLine {
+    white-space: pre-line
+}
+
+.lighter {
+    font-weight: lighter
+}
+
+.gradient1 {
+    /* background: #000;
+    background: linear-gradient(to bottom, #000 75%, #294177 100%) */
+    background-size: cover;
+    background-position: 50% 99%;
+    background-image: url("https://notre-dame-de-paris-1257401906.cos.ap-chengdu.myqcloud.com/webp/ND1-Paris.webp");
+}
+
+#judgementContainer2 .gradient1 {
+    background-size: cover;
+    background-position: 50% 99%;
+    background-image: url("https://notre-dame-de-paris-1257401906.cos.ap-chengdu.myqcloud.com/webp/p-organ.webp");
+}
+
+.gradient2 {
+    background: #294177;
+    background: linear-gradient(to bottom, #294177 75%, #000 100%)
+}
+
+.gradient3 {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2) 75%, rgb(0, 0, 0) 100%)
+}
+
+.gradient4 {
+    background-image: url("https://notre-dame-de-paris-1257401906.cos.ap-chengdu.myqcloud.com/webp/final.webp");
+    background-size: cover;
+    background-position: center center
+}
+
+.bgBlack {
+    background-color: #000
+}
+
+#dangerousContainer .bgBlack {
+    background-color: #0000004a
+}
+
+.bgNavyBlue {
+    background-size: cover;
+    background-position: 50% 99%;
+    background-image: url("https://notre-dame-de-paris-1257401906.cos.ap-chengdu.myqcloud.com/webp/p-mid.webp");
+}
+
+.bgEvent {
+    background-size: cover;
+    background-position: 50% 99%;
+    background-image: url("https://notre-dame-de-paris-1257401906.cos.ap-chengdu.myqcloud.com/webp/eventBg.webp");
+}
+
+.bgOnyx {
+    background-color: #111
+}
+
+.starsBg1 {
+    background-image: url("https://notre-dame-de-paris-1257401906.cos.ap-chengdu.myqcloud.com/webp/starts.webp");
+    background-size: cover;
+    background-position: center center
+}
+
+.starsBg2 {
+    background-image: url("https://notre-dame-de-paris-1257401906.cos.ap-chengdu.myqcloud.com/webp/starts.webp");
+    background-size: cover;
+    background-position: center center
+}
+
+.rosesBg {
+    background-image: url("https://notre-dame-de-paris-1257401906.cos.ap-chengdu.myqcloud.com/webp/historybg.webp");
+    background-size: cover;
+    background-position: center center
+}
+
+.zBg {
+    z-index: -1
+}
+
+.explore-cta {
+    text-align: center;
+    border: 0;
+    background: transparent;
+    font-size: 10px;
+    font-family: "ge-inspira-sans-bold";
+    line-height: 1.6;
+    letter-spacing: 0.3em;
+    text-transform: uppercase
+}
+
+.explore-cta--light {
+    color: #fff
+}
+
+.video-js {
+    font-size: 16px;
+    color: #fff;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%
+}
+
+.vjs-default-skin .vjs-big-play-button {
+    font-size: 3em;
+    line-height: 1.5em;
+    height: 1.5em;
+    width: 3em;
+    border: 0.06666em solid #fff;
+    border-radius: 0.3em;
+    left: 0.5em;
+    top: 0.5em
+}
+
+.video-js .vjs-control-bar,
+.video-js .vjs-big-play-button,
+.video-js .vjs-menu-button .vjs-menu-content {
+    background-color: #2B333F;
+    background-color: rgba(43, 51, 63, 0.7)
+}
+
+.video-js .vjs-slider {
+    background-color: #73859f;
+    background-color: rgba(115, 133, 159, 0.5)
+}
+
+.video-js .vjs-volume-level,
+.video-js .vjs-play-progress,
+.video-js .vjs-slider-bar {
+    background: #fff
+}
+
+.video-js .vjs-load-progress {
+    background: ligthen(#73859f, 25%);
+    background: rgba(115, 133, 159, 0.5)
+}
+
+.video-js .vjs-load-progress div {
+    background: ligthen(#73859f, 50%);
+    background: rgba(115, 133, 159, 0.75)
+}
+
+.beat--container {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    padding-bottom: 0.1px
+}
+
+.beat--container--size-natural {
+    height: auto
+}
+
+.beat--container--size-1-half {
+    height: 150vh
+}
+
+.beat--container--size-2 {
+    height: 200vh
+}
+
+.beat--container--size-3 {
+    height: 300vh
+}
+
+.beat--container--size-4 {
+    height: 400vh
+}
+
+.beat--container--size-5 {
+    height: 500vh
+}
+
+.beat--container--size-12 {
+    height: 1200vh
+}
+
+@media (max-width: 960px) {
+    .beat--container--m--size-natural {
+        height: auto
+    }
+
+    .beat--container--m--size-1 {
+        height: 100vh
+    }
+
+    .beat--container--m--size-2 {
+        height: 200vh
+    }
+
+    .beat--container--m--size-3 {
+        height: 300vh
+    }
+
+    .beat--container--m--size-4 {
+        height: 400vh
+    }
+
+    .beat--container--m--size-5 {
+        height: 500vh
+    }
+
+    .eventbg {
+        display: none
+    }
+}
+
+.beat--container--black {
+    background: #000
+}
+
+.beat--container--light {
+    background: #fff
+}
+
+.beat--container--dark {
+    background: #08162b
+}
+
+.beat--container--darker {
+    background: #010610
+}
+
+.beat--container--blue {
+    background: #000
+}
+
+#architectureContainer .beat--container--blue {
+    background: #fff
+}
+
+.beat--container--red {
+    background-size: cover;
+    background-position: 50% 99%;
+    background-image: url(https://notre-dame-de-paris-1257401906.cos.ap-chengdu.myqcloud.com/webp/p-fire.webp);
+}
+
+.beat--fixed--container {
+
+    position: -webkit-sticky;
+    position: sticky;
+    box-sizing: border-box;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+#canvasEl {
+    display: none;
+}
+
+.no-csspositionsticky .beat--fixed--container {
+    position: fixed
+}
+
+.no-csspositionsticky .beat--fixed--container.is-unlocked {
+    position: absolute
+}
+
+.no-csspositionsticky .beat--fixed--container.is-exiting {
+    bottom: 0;
+    top: auto
+}
+
+@media (max-width: 960px) {
+    .beat--container--m--bottom-content {
+        justify-content: flex-end
+    }
+}
+
+.beat--background--image {
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    will-change: opacity
+}
+
+.beat--background--image>canvas {
+    width: 100%;
+    height: 100%
+}
+
+.beat--content {
+    position: relative;
+    text-align: center;
+    overflow: hidden
+}
+
+.beat--content--center {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0
+}
+
+.beat--content--light {
+    color: #fff
+}
+
+.beat--section--title {
+    position: absolute;
+    color: white;
+    top: 106px;
+    left: 163px;
+    font: 58px / 50px 'Playfair Display', serif;
+    text-transform: uppercase
+}
+
+.beat--section--title.beat--section--title--dark {
+    color: #464646
+}
+
+.ar-lock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: absolute
+}
+
+.ar-lock--double {
+    height: 200vh
+}
+
+.ar-roses-lava--container {
+    height: 100vh;
+    width: 145.07042vh;
+    position: relative
+}
+
+@media only screen and (min-aspect-ratio: 1442 / 994) {
+    .ar-roses-lava--container {
+        width: 100%;
+        height: 100%;
+        min-height: 100%;
+    }
+}
+
+.ar16x9--container {
+    height: 100vh;
+    width: 177.77778vh;
+    position: relative
+}
+
+@media only screen and (min-aspect-ratio: 16 / 9) {
+    .ar16x9--container {
+        width: 100vw;
+        height: 56.25vw;
+        min-height: 56.25vw
+    }
+}
+
+.ar8x9--container {
+    height: 200vh;
+    width: 177.77778vh;
+    position: relative
+}
+
+@media only screen and (min-aspect-ratio: 16 / 9) {
+    .ar8x9--container {
+        width: 100vw;
+        height: 112.5vw;
+        min-height: 112.5vw
+    }
+}
+
+.ar4x1--container {
+    position: relative;
+    width: 100vw;
+    height: 50.875vw
+}
+
+@media (max-width: 960px) {
+    .m--ar9x16--container {
+        width: 56.25vh;
+        height: 100vh
+    }
+}
+
+.beat--title {
+    font-size: 3em
+}
+
+.beat--description {
+    width: 400px
+}
+
+.beat--container--dangerous {
+    background: #011111
+}
+
+.beat--explore--container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center
+}
+
+.animated--beat--explore--container {
+    opacity: 0
+}
+
+.beat--container--justify-end {
+    justify-content: flex-end
+}
+
+.finalButtonsParent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    min-width: 75%;
+    margin: 120px 0 60px 0
+}
+
+@media (max-width: 960px) {
+    .finalButtonsParent {
+        flex-direction: column;
+        margin-top: 60px
+    }
+}
+
+@media (max-width: 960px) {
+    .finalButtonsParent .fButtonParent {
+        margin-bottom: 40px
+    }
+}
+
+.finalButtonsParent .fButtonParent .fButton {
+    height: 56px;
+    width: 244px;
+    margin-bottom: 20px;
+    border-width: 1px;
+    border-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0);
+    transition: background-color 300ms ease;
+    border-style: solid;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    line-height: 14px;
+    font-size: 12px;
+    color: inherit;
+    text-decoration: none
+}
+
+.finalButtonsParent .fButtonParent .fButton:hover {
+    background-color: rgba(255, 255, 255, 0.5)
+}
+
+.finalButtonsParent .fButtonParent aside {
+    max-width: 300px;
+    text-align: center
+}
+
+.conclusion .thanks {
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 4px;
+    font-weight: bold;
+    text-transform: uppercase
+}
+
+.conclusion .gov {
+    font-weight: light;
+    font-size: 20px;
+    line-height: 32px
+}
+
+.finalDivider {
+    width: 100%;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.5)
+}
+
+.logos--logo {
+    display: flex;
+    object-fit: contain
+}
+
+@media (max-width: 960px) {
+    .logos--logo {
+        margin-bottom: 40px
+    }
+}
+
+.logo--predix {
+    height: 30px
+}
+
+.logo--qwake {
+    height: 35px
+}
+
+.logo--ineter {
+    height: 50px
+}
+
+.logo--ge {
+    height: 80px
+}
+
+.logos--container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center
+}
+
+@media (max-width: 960px) {
+    .logos--container {
+        flex-direction: column
+    }
+}
+
+.finalLimit {
+    max-width: 1022px
+}
+
+figure {
+    position: relative
+}
+
+.title--caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+@media largerThanMobileQuery {
+    .title--caption {
+        max-width: 55vw
+    }
+}
+
+.title--asset.is-faded {
+    opacity: 0
+}
+
+.title--caption--copy {
+    display: flex;
+    flex-direction: column;
+    height: 100%
+}
+
+.title--caption--copy.is-hidden {
+    display: none;
+    opacity: 0;
+    transform: translateY(20px)
+}
+
+.title--line {
+    flex-grow: 2;
+    flex-shrink: 1;
+    flex-basis: 0
+}
+
+.title--line--alpha {
+    flex-grow: 6
+}
+
+.title--line--beta {
+    flex-grow: 3
+}
+
+.dataUiParent {
+    pointer-events: none;
+    overflow: hidden
+}
+
+@media (max-width: 960px) {
+    .dataUiParent {
+        display: none
+    }
+}
+
+.dataUi {
+    flex-grow: 1;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 110vw;
+    box-sizing: border-box;
+    padding: 80px
+}
+
+.dataUi section {
+    height: 304px
+}
+
+.dataUi section .cParent {
+    width: 260px;
+    height: 100px;
+    margin: 10px 0 0 0
+}
+
+.dataUi section .cParent div {
+    position: relative
+}
+
+.dataUi section .cParent div .outerLabel,
+.dataUi section .cParent div .outerVal {
+    margin: 0
+}
+
+.dataUi section .cParent div .outerLabel {
+    font-family: "ge-inspira-sans-bold";
+    font-size: 10px;
+    line-height: 16px;
+    letter-spacing: 2.5px
+}
+
+.dataUi section .cParent div .outerVal {
+    font-size: 44px;
+    font-weight: 300;
+    line-height: 53px
+}
+
+.dataUi section .cParent div label {
+    position: absolute;
+    font-size: 12px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.dataUi section .cParent div .circleProgress {
+    transform: rotate(-90deg);
+    stroke: rgba(255, 255, 255, 0.5);
+    stroke-width: 3px;
+    height: 65px;
+    width: 65px
+}
+
+.dataUi section .cParent div .circleProgress .bar {
+    stroke: rgba(255, 255, 255, 0.8);
+    stroke-dashoffset: 0;
+    transition: stroke-dashoffset 750ms ease-out
+}
+
+.eventbg {
+    background-image: url(https://notre-dame-de-paris-1257401906.cos.ap-chengdu.myqcloud.com/webp/p-mid.webp);
+    background-size: cover;
+    background-position: center center;
+}
+
+#eventContainer .copy .copy1 {
+    transition: all 300ms ease
+}
+
+#eventContainer .copy .copyD {
+    transition: all 300ms ease 200ms
+}
+
+#eventContainer .dataVisParent {
+    height: 2369px;
+    width: 100%;
+    margin-top: 75vh;
+    height: 2369px;
+    width: 100%;
+    position: relative
+}
+
+#eventContainer .dataVisParent .verticalLine {
+    height: 100%;
+    width: 2px;
+    background-color: #596379;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+@media (max-width: 960px) {
+    #eventContainer .dataVisParent .verticalLine {
+        transform: translateX(84px);
+        left: auto;
+        align-self: flex-start
+    }
+}
+
+#eventContainer .dataVisParent .verticalLine .start,
+#eventContainer .dataVisParent .verticalLine .end {
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    flex-direction: column
+}
+
+#eventContainer .dataVisParent .verticalLine .start p,
+#eventContainer .dataVisParent .verticalLine .end p {
+    margin: 0;
+    text-align: center
+}
+
+#eventContainer .dataVisParent .verticalLine .start .month,
+#eventContainer .dataVisParent .verticalLine .end .month {
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 4px;
+    line-height: 20px
+}
+
+#eventContainer .dataVisParent .verticalLine .start .day,
+#eventContainer .dataVisParent .verticalLine .end .day {
+    font-family: "Playfair Display", serif;
+    font-size: 24px;
+    line-height: 24px
+}
+
+#eventContainer .dataVisParent .verticalLine .start {
+    top: 0;
+    justify-content: flex-start;
+    transform: translateY(-60px) translateX(-30px)
+}
+
+#eventContainer .dataVisParent .verticalLine .end {
+    bottom: 0;
+    justify-content: flex-end;
+    transform: translateY(60px) translateX(-30px)
+}
+
+#eventContainer .dataVisParent .holdTimeline {
+    height: calc(100% + 200px);
+    left: 50%;
+    width: 75%;
+    transform: translateX(-50%) translateY(-100px)
+}
+
+@media (max-width: 960px) {
+    #eventContainer .dataVisParent .holdTimeline {
+        left: auto;
+        width: 100%;
+        height: calc(100% + 100px);
+        transform: translateY(-50px)
+    }
+}
+
+#eventContainer .dataVisParent .holdTimeline .event {
+    width: 500px;
+    height: 200px;
+    align-items: center;
+    transform: translateX(-250px);
+    justify-content: flex-start
+}
+
+#eventContainer .dataVisParent .holdTimeline .event .eventCopy {
+    transform: translateY(50%);
+    max-width: 300px;
+    transition: all 300ms ease
+}
+
+#eventContainer .dataVisParent .holdTimeline .event .eventCopy.translate {
+    transform: translateY(calc(50% + 50px))
+}
+
+@media (max-width: 960px) {
+    #eventContainer .dataVisParent .holdTimeline .event .eventCopy {
+        padding: 40px 0 0 40px
+    }
+}
+
+#eventContainer .dataVisParent .holdTimeline .event .eventCopy .eventLabel {
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    line-height: 16px;
+    margin: 0
+}
+
+@media (max-width: 960px) {
+    #eventContainer .dataVisParent .holdTimeline .event .eventCopy .eventLabel {
+        font-size: 10px;
+        line-height: 16px
+    }
+}
+
+#eventContainer .dataVisParent .holdTimeline .event .eventCopy .eventTitle {
+    font-family: "Playfair Display", serif;
+    font-size: 40px;
+    font-weight: normal;
+    line-height: 48px;
+    margin: 0
+}
+
+@media (max-width: 960px) {
+    #eventContainer .dataVisParent .holdTimeline .event .eventCopy .eventTitle {
+        font-size: 24px;
+        line-height: 40px
+    }
+}
+
+#eventContainer .dataVisParent .holdTimeline .event .eventCopy .eventBody {
+    font-weight: lighter;
+    font-size: 20px;
+    line-height: 24px
+}
+
+@media (max-width: 960px) {
+    #eventContainer .dataVisParent .holdTimeline .event .eventCopy .eventBody {
+        font-size: 12px;
+        line-height: 16px
+    }
+}
+
+#eventContainer .dataVisParent .holdTimeline .event .horizontalLine {
+    height: 2px;
+    width: 120px;
+    right: 0;
+    left: auto;
+    background-color: #596379
+}
+
+#eventContainer .dataVisParent .holdTimeline .event .horizontalLine .circ {
+    background-color: white;
+    width: 7px;
+    height: 7px;
+    border-radius: 7px;
+    transform: translateX(116.5px) translateY(-3.5px)
+}
+
+@media (min-width: 961px) {
+
+    #eventContainer .dataVisParent .holdTimeline .event:nth-child(2n+3),
+    #eventContainer .dataVisParent .holdTimeline .event:first-child {
+        transform: translateX(250px);
+        justify-content: flex-end
+    }
+
+    #eventContainer .dataVisParent .holdTimeline .event:nth-child(2n+3) .horizontalLine,
+    #eventContainer .dataVisParent .holdTimeline .event:first-child .horizontalLine {
+        left: 0
+    }
+
+    #eventContainer .dataVisParent .holdTimeline .event:nth-child(2n+3) .horizontalLine .circ,
+    #eventContainer .dataVisParent .holdTimeline .event:first-child .horizontalLine .circ {
+        transform: translateX(-3.5px) translateY(-3.5px)
+    }
+}
+
+@media (max-width: 960px) {
+    #eventContainer .dataVisParent .holdTimeline .event {
+        width: 250px;
+        height: 100px;
+        transform: translateX(22px);
+        justify-content: flex-end
+    }
+
+    #eventContainer .dataVisParent .holdTimeline .event .horizontalLine {
+        left: 0
+    }
+
+    #eventContainer .dataVisParent .holdTimeline .event .horizontalLine .circ {
+        transform: translateX(-3.5px) translateY(-3.5px)
+    }
+}
+
+#eventContainer .dataVisParent .holdSvgs {
+    transform: translateX(-33px);
+    height: 2365px;
+    position: relative
+}
+
+@media (max-width: 960px) {
+    #eventContainer .dataVisParent .holdSvgs {
+        left: 60px;
+        align-self: flex-start;
+        transform: scaleX(0.75)
+    }
+}
+
+#eventContainer .dataVisParent .holdSvgs svg#blue {
+    transform: translateX(-60px)
+}
+
+#eventContainer .dataVisParent .holdSvgs svg#gray {
+    transform: translateX(-29px)
+}
+
+#eventContainer .dataVisParent .holdSvgs svg .dataPath {
+    stroke-dasharray: 5000
+}
+
+.nav {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin: 100px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    z-index: 800;
+    color: #fff
+}
+
+.nav:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0px;
+    height: 1px;
+    background: #fff
+}
+
+.nav.is-inverted {
+    color: #000;
+    border-color: #000
+}
+
+@media (max-width: 960px) {
+    .nav {
+        margin: 0;
+        left: 100%;
+        right: auto;
+        width: 100%;
+        border: none
+    }
+
+    .nav:before {
+        content: '';
+        height: 70px;
+        background: #000;
+        transition: 300ms transform ease-out;
+        will-change: transform
+    }
+
+    .nav.is-open:before {
+        transform: translateX(-100%)
+    }
+}
+
+@media only screen and (max-width: 960px) and (orientation: landscape) {
+    .nav {
+        opacity: 0
+    }
+}
+
+.nav--toggle {
+    position: fixed;
+    padding: 16px 12px;
+    box-sizing: content-box;
+    right: 16px;
+    top: 12px;
+    border: 0;
+    transition: 300ms transform ease-out;
+    will-change: transform;
+    z-index: 10
+}
+
+.nav.is-open .nav--toggle {
+    transform: rotateZ(-90deg)
+}
+
+@media (min-width: 961px) {
+    .nav--toggle {
+        display: none
+    }
+}
+
+.nav--toggle--icon {
+    display: block
+}
+
+/* .nav--ornaments {
+    background-image: linear-gradient(transparent 36px, #fff 36px, #fff 37px, transparent 37px, transparent 49px, #fff 49px, #fff 50px, transparent 50px, transparent 53px, #fff 53px, #fff 54px, transparent 54px, transparent 102px, #fff 102px, #fff 103px, transparent 103px, transparent 136px, #fff 136px, #fff 137px, transparent 137px, transparent 172px, #fff 172px, #fff 173px, transparent 173px, transparent 239px, #fff 239px, #fff 240px, transparent 240px, transparent 262px, #fff 262px, #fff 263px);
+    background-size: 10px 264px;
+    background-repeat: repeat;
+    position: absolute;
+    top: 20px;
+    right: 0;
+    bottom: 20px
+}
+
+.nav.is-inverted .nav--ornaments {
+    background-image: linear-gradient(transparent 36px, #000 36px, #000 37px, transparent 37px, transparent 49px, #000 49px, #000 50px, transparent 50px, transparent 53px, #000 53px, #000 54px, transparent 54px, transparent 102px, #000 102px, #000 103px, transparent 103px, transparent 136px, #000 136px, #000 137px, transparent 137px, transparent 172px, #000 172px, #000 173px, transparent 173px, transparent 239px, #000 239px, #000 240px, transparent 240px, transparent 262px, #000 262px, #000 263px)
+} */
+
+@media (max-width: 960px) {
+    .nav--ornaments {
+        display: none
+    }
+}
+
+.nav--ornaments--1 {
+    width: 8px
+}
+
+.nav--ornaments--2 {
+    width: 4px;
+    background-position: 0 166px
+}
+
+.nav--item {
+    padding: 4px 0;
+    background: 0;
+    border: 0;
+    cursor: pointer;
+    display: inline-block;
+    flex-grow: 1;
+    flex-basis: 0;
+    position: relative;
+    width: 54px;
+    font-size: 10px;
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: left;
+    opacity: 0.6;
+}
+
+.nav--item:focus {
+    outline: 0
+}
+
+@media (max-width: 960px) {
+    .nav--item {
+        width: auto;
+        padding-left: 24px;
+        transform: translate3d(0, 0, 0);
+        text-transform: none;
+        background: #000000e8;
+        transition: 300ms transform ease-out;
+        height: 32px;
+        font-family: "Playfair Display";
+        font-size: 24px;
+        line-height: 32px;
+        color: #FFFFFF;
+        opacity: 0.9;
+    }
+
+    .nav.is-open .nav--item {
+        transform: translate3d(-100%, 0, 0)
+    }
+}
+
+.nav--item--name {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 2px;
+    width: 88px;
+    padding-right: 8px;
+    white-space: nowrap
+}
+
+.nav--item--name:after {
+    content: '';
+    background: #fff;
+    height: 1px;
+    position: absolute;
+    top: 5px;
+    left: 0;
+    right: -44px;
+    transform: translate(calc(100% - 22px), 0);
+    transition: transform 500ms ease-out
+}
+
+.nav--item.is-active .nav--item--name:after {
+    transform: translate(0, 0)
+}
+
+.nav.is-inverted .nav--item--name:after {
+    background: #000
+}
+
+@media (max-width: 960px) {
+    .nav--item--name:after {
+        display: none
+    }
+}
+
+@media (max-width: 960px) {
+    .nav--item--name {
+        position: static
+    }
+}
+
+@media (min-width: 961px) {
+    .nav--item--text {
+        opacity: 0.2;
+        transition: opacity 500ms ease-out, transform 500ms ease-out;
+        display: inline-block
+    }
+
+    .nav--item:hover .nav--item--text {
+        opacity: 1
+    }
+
+    .nav--item.is-active .nav--item--text {
+        opacity: 1;
+        transform: translate(0, 100%)
+    }
+}
+
+.nav--dimmer {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #000;
+    z-index: 700
+}
+
+.logo {
+    position: fixed;
+    top: 66px;
+    left: 8px;
+    padding: 16px;
+    z-index: 900
+}
+
+@media (max-width: 960px) {
+    .logo {
+        top: 11px
+    }
+}
+
+@media (max-width: 960px) {
+    .logo--icon--desktop {
+        display: none
+    }
+}
+
+@media (min-width: 961px) {
+    .logo--icon--mobile {
+        display: none
+    }
+}
+
+.modal {
+    width: 100vw;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: white;
+    box-sizing: border-box;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.2s ease-in;
+    z-index: 900;
+    overflow: hidden;
+    color: #294177
+}
+
+.modal .modal--video {
+    width: 100%;
+    cursor: pointer
+}
+
+.modal .modal--video::-webkit-media-controls {
+    display: none !important
+}
+
+.modal .modal--video::-webkit-media-controls-start-playback-button {
+    display: none !important;
+    -webkit-appearance: none
+}
+
+.modal .play--button {
+    position: absolute;
+    pointer-events: none;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    transition: opacity 300ms ease
+}
+
+.modal .play--button img {
+    width: 40px
+}
+
+.modal .darkCopy {
+    color: #000
+}
+
+.modal .mediumCopy {
+    color: #000
+}
+
+.modal .mediumCopy50 {
+    color: rgba(31, 37, 50, 0.5)
+}
+
+.modal.open {
+    opacity: 1;
+    visibility: visible
+}
+
+.modal .ctaButton {
+    height: 56px;
+    width: 244px;
+    margin: 30px 0 20px 0;
+    border-width: 1px;
+    border-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0);
+    transition: background-color 300ms ease;
+    border-style: solid;
+    text-decoration: none;
+    cursor: pointer
+}
+
+.modal .ctaButton:hover {
+    background-color: rgba(255, 255, 255, 0.5)
+}
+
+.modal .ctaButton p {
+    font-weight: bold;
+    color: white;
+    letter-spacing: 4px;
+    line-height: 14px;
+    font-size: 12px
+}
+
+.modal .modalDivider {
+    width: 100%;
+    height: 1px;
+    margin: 60px 0;
+    background-color: white
+}
+
+.modal .modal--scroll {
+    overflow: scroll;
+    position: relative;
+    height: 100%
+}
+
+.modal .modal--inner {
+    max-width: 1000px;
+    margin: 70px auto
+}
+
+@media (max-width: 960px) {
+    .modal .modal--inner {
+        padding: 24px;
+        margin: 0
+    }
+}
+
+.modal .modal--inner .modal--inner--header {
+    display: flex
+}
+
+@media (max-width: 960px) {
+    .modal .modal--inner .modal--inner--header {
+        flex-direction: column
+    }
+}
+
+.modal .modal--inner .modal--inner--header h3 {
+    font: 40px/48px "Playfair Display", serif;
+    width: 236px;
+    margin: 0
+}
+
+@media (max-width: 960px) {
+    .modal .modal--inner .modal--inner--header h3 {
+        margin-bottom: 22px;
+        width: 100%
+    }
+
+    .modal .modal--inner .modal--inner--header h3 span {
+        margin-left: 40px;
+        display: block
+    }
+}
+
+.modal .modal--inner .modal--inner--header .modal--inner--header--right {
+    width: 684px
+}
+
+@media (max-width: 960px) {
+    .modal .modal--inner .modal--inner--header .modal--inner--header--right {
+        max-width: 684px;
+        width: 100%
+    }
+}
+
+.modal .modal--inner .modal--inner--header .modal--inner--header--right .modal--inner--header--top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px
+}
+
+@media (max-width: 960px) {
+    .modal .modal--inner .modal--inner--header .modal--inner--header--right .modal--inner--header--top {
+        justify-content: flex-start;
+        margin-bottom: 40px
+    }
+}
+
+.modal .modal--inner .modal--inner--header .modal--inner--header--right span {
+    font: 16px/19px "ge-inspira-sans-regular", sans-serif;
+    font-weight: 300;
+    width: 24%
+}
+
+.modal .modal--inner .modal--inner--header .modal--inner--header--right span.stat--value--emphasized {
+    font-size: 40px;
+    line-height: 48px;
+    font-family: "Playfair Display"
+}
+
+@media (max-width: 960px) {
+    .modal .modal--inner .modal--inner--header .modal--inner--header--right span {
+        width: auto;
+        margin-right: 28px
+    }
+}
+
+.modal .modal--inner .modal--inner--header .modal--inner--header--right span h5 {
+    font-family: "ge-inspira-sans-bold", sans-serif;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: normal;
+    line-height: 16px;
+    letter-spacing: 3px;
+    margin: 0 0 6px 0
+}
+
+.modal .modal--inner .modal--inner--header .modal--inner--header--right span:first-child {
+    width: 17%
+}
+
+@media (max-width: 960px) {
+    .modal .modal--inner .modal--inner--header .modal--inner--header--right span:first-child {
+        width: auto
+    }
+}
+
+.modal .modal--inner .modal--inner--header .modal--inner--header--right:last-child {
+    margin-left: 24px
+}
+
+@media (max-width: 960px) {
+    .modal .modal--inner .modal--inner--header .modal--inner--header--right:last-child {
+        margin-left: 0
+    }
+}
+
+.modal .modal--inner .modal--inner--header .modal--inner--header--right p {
+    font: 20px/32px "ge-inspira-sans-regular", sans-serif;
+    font-weight: 300
+}
+
+@media (max-width: 960px) {
+    .modal .modal--inner .modal--inner--header .modal--inner--header--right p {
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 24px;
+        margin-bottom: 56px
+    }
+}
+
+.closeParent {
+    box-sizing: border-box;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    padding-bottom: 60px
+}
+
+@media (max-width: 960px) {
+    .closeParent {
+        padding-bottom: 30px
+    }
+}
+
+.closeParent img {
+    cursor: pointer;
+    height: 72px
+}
+
+.lastItem {
+    left: 0;
+    padding-bottom: 60px
+}
+
+.loader-bg {
+    opacity: 0.2
+}
+
+.loader-progress {
+    transform: scaleX(0);
+    transform-origin: top left;
+    transition: transform 300ms ease-out
+}
+
+@media (max-width: 960px) {
+    .lastItem {
+        padding-bottom: 120px
+    }
+
+    #team-modal--1 .lastItem {
+        padding-bottom: 20px;
+
+    }
+
+    #team-modal--1 .mt60Mobile {
+        margin-top: 20px;
+    }
+}
+
+.modal--body {
+    margin-left: 40px
+}
+
+.modal--transparent {
+    color: #ffffff;
+    background: transparent
+}
+
+.modal--transparent .modal--close--trigger--js:before,
+.modal--transparent .modal--close--trigger--js:after {
+    background: #ffffff
+}
+
+.modal--blue {
+    color: #ffffff;
+    background: #294177
+}
+
+.modal--blue .modal--close--trigger--js:before,
+.modal--blue .modal--close--trigger--js:after {
+    background: #ffffff
+}
+
+.modal--force-hidden {
+    opacity: 0 !important
+}
+
+.modal--loader {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    bottom: 0;
+    justify-content: center;
+    align-items: center
+}
+
+.modal--loader svg {
+    margin-left: 60px
+}
+
+.modal--loader path {
+    fill: #040912
+}
+
+.modal--blue .modal--loader path {
+    fill: #fff
+}
+
+.modal--loader.is-loaded {
+    opacity: 0;
+    transition: opacity 500ms ease-out
+}
+
+.pull-quote {
+    max-width: 1400px;
+    padding: 0 30px;
+    box-sizing: border-box;
+    margin: auto;
+    font-family: "Playfair Display";
+    text-align: center;
+    font-size: 32px;
+    line-height: 60px
+}
+
+@media (min-width: 961px) {
+    .pull-quote {
+        font-size: 32px;
+        line-height: 64px
+    }
+}
+
+#lastJudgementContainer .pull-quote {
+    color: #ffffff;
+}
+
+#architectureContainer .pull-quote--inverted {
+    color: #08162b;
+    margin: 20px auto 400px auto
+}
+
+#lastJudgementContainer pull-quote--inverted {
+    color: #ffffff
+}
+
+.wide-pull-quote {
+    max-width: 1037px;
+    padding: 0 30px;
+    box-sizing: border-box;
+    margin: auto;
+    font-family: "Playfair Display";
+    text-align: center;
+    font-size: 32px;
+    line-height: 40px
+}
+
+@media (min-width: 961px) {
+    .wide-pull-quote {
+        font-size: 56px;
+        line-height: 72px
+    }
+}
+
+.wide-pull-quote--inverted {
+    color: #08162b
+}
+
+.accent-line {
+    margin: 15px auto;
+    display: block
+}
+
+.accent-line path {
+    fill: none;
+    stroke: #fff
+}
+
+.accent-line--inline {
+    display: inline-block
+}
+
+.connector {
+    position: relative
+}
+
+.connector--accent-line {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto
+}
+
+.connector--accent-line--over-top {
+    bottom: 0
+}
+
+.connect--accent-line--over-bottom {
+    top: 0
+}
+
+.veil100,
+.veil200,
+.veil300,
+.veil600,
+.veil800,
+.veilFull,
+.veil {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    will-change: opacity
+}
+
+.veilFull {
+    background: #000
+}
+
+.veil800 {
+    /* background: rgba(0, 0, 0, 0.8) */
+    background-size: cover;
+    background-position: 50% 99%;
+    background-image: url("https://notre-dame-de-paris-1257401906.cos.ap-chengdu.myqcloud.com/webp/ND-Paris.webp");
+}
+
+@media (max-width: 960px) {
+    .veil800 {
+        /* background: rgba(0, 0, 0, 0.8) */
+        background-size: cover;
+        background-position: 50% 99%;
+        background-image: url("https://notre-dame-de-paris-1257401906.cos.ap-chengdu.myqcloud.com/webp/cover-cards/p-floor1.webp");
+    }
+
+    #predictiveContainer .gradient1 {
+        background-size: cover;
+        background-position: 50% 99%;
+        background-image: url("https://notre-dame-de-paris-1257401906.cos.ap-chengdu.myqcloud.com/webp/cover-cards/p-floor.webp");
+    }
+}
+
+.veil600 {
+    background: rgba(0, 0, 0, 0.6)
+}
+
+.veil300 {
+    background: rgba(0, 0, 0, 0.3)
+}
+
+.veil200 {
+    background: rgba(0, 0, 0, 0.2)
+}
+
+.veil100 {
+    background: rgba(0, 0, 0, 0.1)
+}
+
+.worldVeil {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transition: opacity 1500ms linear
+}
+
+.unsupported--container {
+    background: rgba(255, 255, 255, 0.8);
+    color: #294177;
+    padding: 73px 24px 80px;
+    text-align: center;
+    max-width: 732px;
+    margin: auto;
+    box-sizing: border-box
+}
+
+.unsupported--cta {
+    background: #000;
+    padding: 25px 28px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 1;
+    display: inline-block;
+    font-size: 12px;
+    font-family: "ge-inspira-sans-bold";
+    font-weight: normal;
+    line-height: 14px;
+    letter-spacing: 4px
+}
+
+.unsupported--message {
+    margin-top: 0;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 32px;
+    margin-bottom: 38px
+}
+
+.unsupported--logo {
+    margin: 0 auto 26px
+}
+
+.main--unsupported {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background: url("https://notre-dame-de-paris-1257401906.cos.ap-chengdu.myqcloud.com/webp/cover-cards/Intro_D.webp");
+    background-size: cover;
+    background-position: center;
+    padding: 12px
+}
+
+.expand-icon {
+    padding: 8px 18px 8px 19px;
+    border-bottom: 1px solid rgba(1, 6, 16, 0.1)
+}
+
+.expand-icon path {
+    stroke: #294177
+}
+
+.beat-copy {
+    position: absolute;
+    top: 40%;
+    left: 24px;
+    right: 24px;
+    transform: translateY(-50%);
+    text-align: left
+}
+
+@media (min-width: 961px) {
+    .beat-copy {
+        top: 50%;
+        width: 1400px;
+        left: calc(45% - 540px);
+    }
+}
+
+@media (max-width: 960px) {
+    .beat-copy.beat-copy--bottom-content {
+        top: auto;
+        bottom: 30%;
+        transform: none
+    }
+
+    .beat-copy.beat-copy--bottom-content .eyebrow {
+        font-size: 10px;
+        letter-spacing: 3px
+    }
+
+    .beat-copy.beat-copy--bottom-content h3 {
+        font-size: 40px;
+        line-height: 48px
+    }
+
+    .beat-copy.beat-copy--bottom-content p {
+        font-size: 20px;
+        line-height: 24px;
+        margin-left: 18px !important;
+    }
+
+    .bgevent {
+        background-image: url("https://notre-dame-de-paris-1257401906.cos.ap-chengdu.myqcloud.com/webp/cover-cards/p-event.webp");
+        background-size: cover;
+        background-position: center center
+    }
+}
+
+.beat-copy .eyebrow {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: "ge-inspira-sans-bold";
+    line-height: 14px;
+    color: rgba(255, 255, 255, 0.8);
+    letter-spacing: 4px;
+    opacity: 0;
+    margin: 0 0 15px 28px;
+    display: block
+}
+
+.fade-in .beat-copy .eyebrow {
+    opacity: 1
+}
+
+.beat-copy .title-eyebrow {
+    font-family: "Playfair Display";
+    font-size: 18px;
+    font-style: italic;
+    line-height: 27px;
+    color: rgba(255, 255, 255, 0.8);
+    display: block;
+    opacity: 0
+}
+
+.fade-in .beat-copy .title-eyebrow {
+    opacity: 1
+}
+
+.beat-copy .title-eyebrow:before {
+    content: '';
+    height: 1px;
+    width: 32px;
+    background: rgba(255, 255, 255, 0.8);
+    margin: 0 6px 6px -16px;
+    display: inline-block
+}
+
+.beat-copy h3 {
+    display: inline-block;
+    color: #fff;
+    font: 72px/1.11111 "Playfair Display", serif;
+    margin: 0 20px 0 20px;
+    opacity: 0;
+    max-width: 1000px
+}
+
+.fade-in .beat-copy h3 {
+    opacity: 1
+}
+
+@media (max-width: 960px) {
+    .beat-copy {
+        top: 47%;
+    }
+
+    .beat-copy h3 {
+        font-size: 30px;
+        line-height: 1.3076
+    }
+
+    .beat--team .beat--fixed--container .team--quote .pull-quote {
+        line-height: 40px;
+    }
+
+    #predictiveContainer .copy .title {
+        text-align: center;
+        font-size: 28px;
+        line-height: 34px;
+    }
+
+    #team-modal--7 .copy .title {
+        font-size: 32px;
+        line-height: 64px;
+    }
+
+    #team-modal--7 .devs section {
+        margin-bottom: 5px;
+    }
+
+    #beginningContainer .copy .title {
+        font-size: 28px;
+        font-weight: 300;
+        line-height: 34px;
+    }
+
+    #beginningContainer .copy .longTitle {
+        font-size: 28px;
+        font-weight: 300;
+        line-height: 34px;
+    }
+
+    #finalContainer .copy .title {
+        font-size: 28px;
+    }
+
+    #finalContainer .alignCenter .copy .longTitle {
+        font-size: 28px !important;
+        font-weight: 300;
+        line-height: 34px;
+    }
+}
+
+.beat-copy h3 span {
+    margin-left: 28px;
+    display: inline-block
+}
+
+.beat-copy .big-title {
+    margin-left: 28px
+}
+
+@media (min-width: 961px) {
+    .beat-copy .big-title {
+        font-size: 80px;
+        line-height: 128px
+    }
+
+    #introContainer .beat-copy .big-title {
+        font-size: 70px;
+        line-height: 98px;
+        width: 500px;
+    }
+}
+
+.fade-in .beat-copy p {
+    opacity: 1
+}
+
+#BG {
+    background-color: #1e1e1e
+}
+
+#TitleCopy {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0
+}
+
+#TitleCopy h1 {
+    color: white
+}
+
+#canvasEl3 {
+    background-color: #1e1e1e
+}
+
+.beat--team {
+    color: #fff;
+    display: flex
+}
+
+.team--quote {
+    position: absolute;
+    top: 3em;
+    left: 0;
+    right: 0
+}
+
+.team--grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding: 10px 0;
+    width: 75%;
+    height: 100%
+}
+
+@media (max-width: 960px) {
+    .team--grid {
+        width: 100%;
+        padding: 10px
+    }
+}
+
+.team--member {
+    position: relative;
+    display: flex;
+    width: calc(33.33333% - 10px);
+    overflow: hidden;
+    background-color: transparent;
+    cursor: pointer
+}
+
+.team--member.team--3 {
+    height: calc(25% - 10px);
+    margin: 0 0 10px 0
+}
+
+.team--member.team--2 {
+    height: calc(50% - 5px)
+}
+
+.team--member:nth-of-type(4) {
+    height: 50%
+}
+
+.team--member:nth-of-type(4) img {
+    object-position: 0 0
+}
+
+.team--member:nth-of-type(5) {
+    margin: 0
+}
+
+.team--member:first-of-type,
+.team--member:nth-of-type(6) {
+    margin: 0 0 10px 0
+}
+
+@media (max-width: 960px) {
+    .team--member {
+        width: calc(50% - 5px)
+    }
+
+    .team--member:nth-of-type(-n+2) {
+        height: calc(33.33333333% - 10px);
+        margin: 0 10px 10px 0
+    }
+
+    .team--member:nth-of-type(3) {
+        height: 33.333333%;
+        margin: 0 10px 0 0
+    }
+
+    .team--member:nth-of-type(4) {
+        height: calc(20% - 10px);
+        margin: 0 0 10px 0
+    }
+
+    .no-object-fit .team--member:nth-of-type(4) {
+        background-position: top left
+    }
+
+    .team--member:nth-of-type(5),
+    .team--member:nth-of-type(6) {
+        height: calc(30% - 10px);
+        margin: 0 0 10px 0
+    }
+
+    .team--member:nth-of-type(7) {
+        height: 20%
+    }
+}
+
+.no-object-fit .team--member {
+    background-size: cover;
+    background-position: center center
+}
+
+.no-object-fit .team--member img {
+    display: none
+}
+
+.team--member .member-copy {
+    position: absolute;
+    padding: 10px;
+    bottom: 0;
+    left: 0;
+    z-index: 20
+}
+
+.team--member .member-copy .member-title,
+.team--member .member-copy .member-name {
+    transition: opacity 800ms ease 100ms;
+    padding: 0;
+    opacity: 0
+}
+
+.team--member .member-copy .member-title {
+    margin: 0 0 10px 0;
+    letter-spacing: 0.5px;
+    font-family: "Playfair Display", serif;
+    font-size: 24px;
+    line-height: 24px
+}
+
+.team--member .member-copy .member-name {
+    margin: 0;
+    font-weight: bold;
+    letter-spacing: 3px;
+    line-height: 16px;
+    font-size: 10px;
+    text-transform: uppercase
+}
+
+.team--member:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #000000;
+    opacity: 0;
+    z-index: 10;
+    transition: opacity 500ms ease
+}
+
+.team--member:hover:after {
+    opacity: 0.5
+}
+
+.team--member:hover .member-copy .member-title,
+.team--member:hover .member-copy .member-name {
+    opacity: 1
+}
+
+.team--thumb {
+    display: flex;
+    background: transparent;
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    transition: 300ms transform ease-out
+}
+
+.devs section {
+    width: 306px;
+    height: 324px;
+    padding: 20px;
+    margin-right: 3px;
+    box-sizing: border-box;
+    position: relative
+}
+
+.devs section img {
+    position: absolute;
+    z-index: -1;
+    transition: opacity 300ms ease;
+    opacity: 1;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0
+}
+
+.devs section p {
+    opacity: 0;
+    transition: opacity 300ms ease;
+    margin: 0;
+    padding: 0
+}
+
+.devs section .name {
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+    line-height: 24px
+}
+
+.devs section .cv {
+    font-weight: bold;
+    font-size: 10px;
+    letter-spacing: 3px;
+    line-height: 16px
+}
+
+.devs section:hover img {
+    opacity: .6
+}
+
+.devs section:hover p {
+    opacity: 1
+}
+
+.modalContent {
+    flex-direction: row
+}
+
+@media (max-width: 960px) {
+    .modalContent {
+        flex-direction: column
+    }
+}
+
+.modalContent article {
+    width: 70%
+}
+
+@media (max-width: 960px) {
+    .modalContent article {
+        width: 100%
+    }
+}
+
+.modalContent aside {
+    width: 30%
+}
+
+@media (max-width: 960px) {
+    .modalContent aside {
+        width: 100%
+    }
+}
+
+#BG {
+    background-color: #464646;
+    position: absolute;
+    height: 100%;
+    width: 100%
+}
+
+@media (max-width: 960px) {
+
+    .world--details-1,
+    .world--details-2 {
+        align-self: flex-end
+    }
+}
+
+.world--details-3 {
+    align-self: center
+}
+
+.longWorldCopy {
+    color: #fff;
+    font-family: "Playfair Display", serif;
+    font-size: 40px;
+    line-height: 56px;
+    font-weight: 300;
+    margin: 0;
+    max-width: 1280px
+}
+
+@media (max-width: 960px) {
+    .longWorldCopy {
+        font-size: 18px;
+        line-height: 34px
+    }
+}
+
+#TitleCopy {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0
+}
+
+#TitleCopy h1 {
+    color: white
+}
+
+#canvasEl3 {
+    background-color: #1e1e1e
+}
+
+#background-canvas {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background: rgba(1, 6, 16, 0);
+    transition: background 0.3s ease-out
+}
+
+#background-canvas.hide-stars {
+    background: rgba(1, 6, 16, 0.9)
+}
+
+@media (max-width: 960px) {
+    #background-canvas {
+        background: url("https://notre-dame-de-paris-1257401906.cos.ap-chengdu.myqcloud.com/webp/cover-cards/historybg.webp") no-repeat center center
+    }
+}
+
+.world-image {
+    padding-top: 30%;
+    width: 240px
+}
+
+@media (max-width: 960px) {
+    #world-canvas {
+        transform: translate3d(0, -19%, 0);
+        zoom: 0.1;
+    }
+}
+
+.world--sidebar {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 106px;
+    list-style-type: none
+}
+
+.world--sidebar li {
+    width: 33px;
+    height: 33px;
+    margin-bottom: 32px;
+    cursor: pointer;
+    border: 2px solid #979797
+}
+
+.world--sidebar li.active {
+    background: #CF4E3E;
+    border: 2px solid #CF4E3E
+}
+
+.title--lead-in {
+    display: block
+}
+
+.text--hidden {
+    opacity: 0;
+    transform: translateY(50px)
+}
+
+.intro--beat {
+    height: 100vh
+}
+
+.videoParent {
+    height: 200vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+.divider {
+    position: absolute;
+    left: 0px;
+    display: block;
+    max-width: none;
+    width: 100%;
+    top: 80vh;
+    height: 20vh
+}
+
+@media (max-width: 960px) {
+    .divider {
+        top: 95vh;
+        height: 5vh
+    }
+}
+
+@media only screen and (min-aspect-ratio: 16 / 9) {
+    .divider {
+        top: 46vw;
+        height: 10.3vw
+    }
+}
+
+#camera-track {
+    opacity: 1;
+    transition: opacity 0.3s ease-out
+}
+
+#camera-track.hide-dots {
+    opacity: 0
+}
+
+.intro--background {
+    height: 100%
+}
+
+.no-object-fit .intro--video {
+    width: 100vw;
+    height: 112.5vw
+}
+
+@media only screen and (max-aspect-ratio: 16 / 9) {
+    .no-object-fit .intro--video {
+        height: 200vh;
+        width: 177.77777778vh;
+        left: 50%;
+        transform: translateX(-50%)
+    }
+}
+
+.rosesBg {
+    background-image: url("https://notre-dame-de-paris-1257401906.cos.ap-chengdu.myqcloud.com/webp/p-windows1.webp");
+    background-size: cover;
+    background-position: 50% 99%
+}
+
+@media (max-width: 960px) {
+    .rosesBg {
+        background-image: url("https://notre-dame-de-paris-1257401906.cos.ap-chengdu.myqcloud.com/webp/cover-cards/p-windows1.webp")
+    }
+}
+
+.beat--roses--inner {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0
+}
+
+@media (max-width: 960px) {
+    .rosesCopy {
+        padding: 7.5vh 20px 0 20px
+    }
+}
+
+.rosesBody .marker {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    bottom: 50vh;
+    left: 15%
+}
+
+@media (max-width: 960px) {
+    .rosesBody .marker {
+        display: none
+    }
+}
+
+.rosesBody .marker .line {
+    height: 15px;
+    width: 2px;
+    background-color: rgba(255, 255, 255, 0.54);
+}
+
+.rosesBody .marker .circ {
+    background-color: white;
+    transition: background-color 300ms ease;
+    height: 14px;
+    width: 14px;
+    border-radius: 50%
+}
+
+.rosesBody .marker:last-of-type {
+    right: 15%;
+    left: auto
+}
+
+.rosesBody .marker.selected .circ {
+    background-color: #EB5154
+}
+
+.buttonsParent {
+    width: 75%;
+    min-width: 1080px
+}
+
+@media (max-width: 960px) {
+    .buttonsParent {
+        width: 100%;
+        min-width: 100%;
+        padding: 0 20px;
+        box-sizing: border-box
+    }
+}
+
+.buttonsParent .rosesButton {
+    background: white;
+    position: relative;
+    padding: 19px 8px 20px 23px;
+    color: #294177;
+    border: none;
+    outline: none;
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 1px;
+    will-change: transform, opacity;
+    box-shadow: 0px 13px 30px -10px rgba(0, 0, 0, 0.75)
+}
+
+@media (min-width: 961px) {
+    .buttonsParent .rosesButton {
+        min-width: 420px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 960px) {
+    .buttonsParent .rosesButton {
+        padding: 8px 0 8px 16px;
+        width: 96px;
+        margin: 0 auto;
+    }
+}
+
+.buttonsParent .rosesButton span {
+    font: 16px/19px "ge-inspira-sans-regular", sans-serif;
+    font-weight: 300;
+    flex-grow: 1
+}
+
+@media (max-width: 960px) {
+    .buttonsParent .rosesButton span {
+        margin-right: 8px
+    }
+}
+
+.buttonsParent .rosesButton span.beat--roses--location {
+    font-family: "Playfair Display";
+    font-size: 24px;
+    line-height: 32px
+}
+
+@media (max-width: 960px) {
+    .buttonsParent .rosesButton span.beat--roses--location {
+        font-size: 18px;
+        line-height: 24px;
+        align-self: center
+    }
+}
+
+.buttonsParent .rosesButton span.beat--roses--location h5 {
+    display: none
+}
+
+.buttonsParent .rosesButton span h5 {
+    font-family: "ge-inspira-sans-regular", sans-serif;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-family: "ge-inspira-sans-bold";
+    font-weight: normal;
+    line-height: 16px;
+    letter-spacing: 3px;
+    margin: 0 0 6px 0
+}
+
+#sensorPlotContainer {
+    display: none
+}
+
+.buttonsParent .rosesButton .expand-icon {
+    padding: 11px 22px 12px 22px
+}
+
+.buttonsParent .rosesButton:hover {
+    color: white;
+    background: #294177
+}
+
+.buttonsParent .rosesButton:hover path {
+    stroke: white
+}
+
+.beat--roses--volcano--marker {
+    position: absolute;
+    bottom: 15vw;
+    left: calc(50% - 177px);
+    background: white;
+    font-family: "ge-inspira-sans-bold", sans-serif;
+    text-transform: uppercase;
+    font-size: 10px;
+    line-height: 16px;
+    letter-spacing: 3px;
+    color: #08152C;
+    margin: 0;
+    padding: 13px 12px 13px 17px;
+    border-radius: 3px;
+    will-change: transform, opacity
+}
+
+@media (max-width: 960px) {
+    .beat--roses--volcano--marker {
+        bottom: 42px
+    }
+}
+
+.beat--roses--volcano--marker:after {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 8px 8px 0 8px;
+    border-color: white transparent transparent transparent
+}
+
+.rosesTitle {
+    font-size: 40px;
+    font-family: "Playfair Display", serif;
+    line-height: 56px
+}
+
+@media (max-width: 960px) {
+    .rosesTitle {
+        font-size: 22px;
+        line-height: 40px
+    }
+}
+
+@media (min-width: 961px) {
+    .limitMeltingPoint {
+        width: 980px
+    }
+}
+
+@media (min-width: 961px) {
+    .limitMeltingPoint2 {
+        width: 845px
+    }
+}
+
+@media (min-width: 961px) {
+    .limitMeltingPoint3 {
+        width: 962px
+    }
+}
+
+@media (min-width: 961px) {
+    .limitMeltingPoint4 {
+        width: 898px
+    }
+}
+
+.dangerous--veil {
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    will-change: opacity
+}
+
+.dangerous--background {
+    opacity: 0;
+    will-change: opacity
+}
+
+.dangerous--intro {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0
+}
+
+.beat--cta {
+    text-align: center;
+    background: #000;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding-top: 7em;
+    box-sizing: border-box;
+    display: none
+}
+
+.beat--cta.show {
+    display: flex
+}
+
+.cta-title {
+    text-transform: uppercase;
+    font-size: 76px;
+    margin: 0
+}
+
+.cta-subtitle {
+    font-size: 26px
+}
+
+.cta-container {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    max-width: 100%;
+    align-items: stretch;
+    align-content: center;
+    padding: 0 2em
+}
+
+.cta {
+    flex-basis: 0;
+    flex-shrink: 1;
+    flex-grow: 1;
+    margin: 0 1em;
+    display: block;
+    color: inherit;
+    text-decoration: inherit;
+    transition: 300ms transform ease-out
+}
+
+.cta:hover {
+    transform: translateY(-10px)
+}
+
+.cta-badge {
+    max-width: 100%;
+    margin-bottom: 1em
+}
+
+.ctaParent {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    right: 0;
+    left: 0
+}
+
+@media (max-width: 960px) {
+    .ctaParent {
+        transform: scale(0.75) translateY(15%)
+    }
+}
+
+.beat--content--learning {
+    align-self: flex-start;
+    margin-top: 5%
+}
+
+.learning-description {
+    font-family: Avenir;
+    font-size: 12px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 16px;
+    color: #FFFFFF
+}
+
+.sensor--background-transition {
+    background: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    will-change: transform
+}
+
+.sensor-description {
+    position: absolute;
+    top: 25%;
+    left: 0;
+    right: 0;
+    color: #294177;
+    margin: 20px auto 0 auto;
+    font: 48px/64px "Playfair Display"
+}
+
+@media (max-width: 960px) {
+    .sensor-description {
+        font: 32px/48px "Playfair Display";
+        top: 34.5%;
+        line-height: 30px;
+    }
+}
+
+.sensor-description .sensor-subtitle {
+    font: 300 20px/32px "ge-inspira-sans-regular";
+    color: #000;
+    margin-top: 100px
+}
+
+@media (max-width: 960px) {
+    .sensor-description .sensor-subtitle {
+        margin-top: 130px;
+        font: 300 16px/24px "Playfair Display"
+    }
+}
+
+.sensorPlotCopy {
+    margin: 0 0 0 80px;
+    max-width: 408px
+}
+
+@media (max-width: 960px) {
+    .sensorPlotCopy {
+        margin: 20px
+    }
+
+    .pull-quote {
+        font-size: 22px;
+    }
+}
+
+#judgementIntro .pull-quote {
+    font: 48px/64px "Playfair Display"
+}
+
+.sensor--background-transition {
+    background-color: white;
+}
+
+.beat--lastJudgement {
+    background-color: white;
+    margin-bottom: -1px
+}
+
+#lastJudgement-sequence {
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    position: absolute
+}
+
+@media (max-width: 960px) {
+    #lastJudgement-sequence {
+        top: auto;
+        bottom: 0;
+        /* height: 133.3333333vw; */
+        height: 100vh;
+        width: 100vw;
+        left: 50%;
+        transform: translateX(-50%)
+    }
+}
+
+.lastJudgement-description {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100vw
+}
+
+.lastJudgementImages {
+    z-index: 100;
+    position: relative;
+    height: 100vh;
+    width: 100vw
+}
+
+@media (max-width: 960px) {
+    .lastJudgementImages {
+        height: 56.25vw
+    }
+}
+
+.lastJudgementImages .lines {
+    position: absolute
+}
+
+@media (max-width: 960px) {
+    .lastJudgementImages .lines {
+        bottom: 0;
+        width: 117vh;
+        height: 65.8vh
+    }
+}
+
+.lastJudgementImages svg .stroke {
+    stroke-dasharray: 500;
+    stroke-dashoffset: 500
+}
+
+.lastJudgementImages svg.key {
+    position: absolute;
+    bottom: 130px;
+    right: 200px
+}
+
+@media (max-width: 960px) {
+    .lastJudgementImages svg.key {
+        display: none
+    }
+}
+
+.lastJudgementImages .empire {
+    top: 300px;
+    left: 30px;
+    height: 0vw;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    justify-content: center
+}
+
+@media (max-width: 960px) {
+    .lastJudgementImages .empire {
+        top: -2vh;
+        left: 0;
+
+    }
+}
+
+.lastJudgementImages .empire img {
+    height: 25vw;
+    background-image: url(https://notre-dame-de-paris-1257401906.cos.ap-chengdu.myqcloud.com/webp/lastJudgement/empire.webp);
+    background-size: cover;
+    background-position: 50% 99%;
+}
+
+@media (max-width: 960px) {
+    .lastJudgementImages .empire img {
+        height: 42vw
+    }
+}
+
+@keyframes pulsate-fwd {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1)
+    }
+
+    50% {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2)
+    }
+
+    to {
+        -webkit-transform: scale(1);
+        transform: scale(1)
+    }
+}
+
+@media (min-width: 961px) {
+    .hellCopy {
+        width: 750px !important
+    }
+}
+
+.beat--levels {
+    overflow: hidden;
+    opacity: 0
+}
+
+.beat--levels.is-loaded {
+    opacity: 1;
+    transition: 1s opacity ease-out
+}
+
+
+.beat--levels .beat--levels--title {
+    margin: 0px auto 0;
+    max-width: 920px;
+    color: #010101;
+    font: 56px/72px "Playfair Display", serif;
+    text-align: center;
+    padding: 100px
+}
+
+@media (max-width: 960px) {
+    .beat--levels .beat--levels--title {
+        font-size: 32px;
+        line-height: 48px;
+        padding: 80px 16px 0;
+        width: 100%;
+        box-sizing: border-box
+    }
+}
+
+.levels--object--container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: 1
+}
+
+.levels--object--container section {
+    height: 100vh;
+    width: 100vw
+}
+
+.levels--title--caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 300;
+    pointer-events: none
+}
+
+@media largerThanMobileQuery {
+    .levels--title--caption {
+        max-width: 55vw
+    }
+}
+
+.levels--titles--container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 500;
+    pointer-events: none
+}
+
+.levels--loader {
+    z-index: 600
+}
+
+.levels--title--asset.is-faded {
+    opacity: 0
+}
+
+.levels--title--caption--copy {
+    display: flex;
+    flex-direction: column;
+    height: 100%
+}
+
+.levels--title--caption--copy.is-hidden {
+    display: none;
+    opacity: 0;
+    transform: translateY(20px)
+}
+
+.levels--title--line {
+    flex-grow: 2;
+    flex-shrink: 1;
+    flex-basis: 0
+}
+
+.levels--title--line--alpha {
+    flex-grow: 6
+}
+
+.levels--title--line--beta {
+    flex-grow: 3
+}
+
+.transition-video {
+    will-change: opacity;
+    transition: opacity 0.5s ease-out
+}
+
+.can-fade {
+    opacity: 1;
+    transition: opacity 0.5s ease-out;
+    will-change: opacity
+}
+
+.fade-out {
+    opacity: 0
+}
+
+.can-fade-in {
+    opacity: 0;
+    transition: opacity 0.5s ease-out;
+    will-change: opacity
+}
+
+.fade-in {
+    opacity: 1
+}
+
+.levels--annotations--section {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: auto;
+    transition: opacity .5s ease-in-out;
+    opacity: 0
+}
+
+.playing .levels--annotations--section {
+    z-index: 3;
+    opacity: 1
+}
+
+.levels--annotations--section .levels--tracker {
+    position: absolute;
+    left: 8px;
+    bottom: 8px;
+    width: 424px;
+    display: flex;
+    align-itens: center;
+    justify-content: middle
+}
+
+.levels--annotations--section .levels--tracker .levels--tracker--inner {
+    background: rgba(255, 255, 255, 0.15);
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-itens: center;
+    justify-content: middle;
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out
+}
+
+.annotations--content--enter .levels--annotations--section .levels--tracker .levels--tracker--inner {
+    opacity: 0
+}
+
+.levels--annotations--section .levels--tracker .levels--tracker--progress {
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    top: 0px;
+    left: 0px
+}
+
+.levels--annotations--section .levels--tracker .levels--tracker--progress svg {
+    position: absolute;
+    left: 0px;
+    top: 0px
+}
+
+.levels--annotations--section .levels--tracker .notation-styles {
+    box-sizing: border-box;
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+    white-space: nowrap
+}
+
+.levels--annotations--section .levels--tracker .notation-styles.levels--tracker--temperature {
+    width: 60%;
+    padding-left: 30px
+}
+
+.levels--annotations--section .levels--tracker .notation-styles>span {
+    font: 10px/16px "ge-inspira-sans-regular";
+    color: white;
+    opacity: 0.6;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: block;
+    margin-top: 10px
+}
+
+.levels--annotations--section .levels--tracker .notation-styles h5 {
+    font: 44px/52px "Playfair Display";
+    margin: 10px 0 35px 0;
+    color: white
+}
+
+.levels--annotations--section .levels--button--container {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 44px;
+    width: 300px
+}
+
+.levels--annotations--section .levels--button--container button {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #EB5154;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    padding: 30px 40px;
+    font: 12px/12px "ge-inspira-sans-regular";
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    transition: all 0.2s ease-in-out
+}
+
+.levels--annotations--section .levels--button--container button:not(.fade-in) {
+    pointer-events: none
+}
+
+.levels--annotations--section .levels--button--container button:hover {
+    color: #294177;
+    box-shadow: 0 3px 15px 0 rgba(0, 0, 0, 0.5);
+    background: white
+}
+
+.levels--annotation--content {
+    position: fixed;
+    bottom: 8px;
+    left: 8px;
+    width: 284px;
+    height: auto;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.15);
+    transform: translateY(calc(100% + 8px));
+    transition: transform 0.5s ease-in-out
+}
+
+.levels--annotation--content h5 {
+    font: normal 24px/32px "Playfair Display";
+    color: white;
+    margin: 0;
+    white-space: normal;
+    text-transform: capitalize
+}
+
+.levels--annotation--content p {
+    font: 16px/24px "ge-inspira-sans-regular";
+    color: white;
+    font-weight: 300;
+    white-space: normal;
+    text-transform: none
+}
+
+.text-label {
+    padding: 21px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    white-space: nowrap;
+    font: 12px/12px "ge-inspira-sans-regular";
+    letter-spacing: 4px;
+    transition: background 0.5s ease-in-out;
+    color: white;
+    cursor: pointer
+}
+
+.text-label:hover {
+    background: white;
+    color: #294177
+}
+
+.text-label:hover .levels--annotation--content {
+    transform: translateY(0)
+}
+
+.text-label:after {
+    content: '';
+    position: absolute;
+    top: calc(100% + 1px);
+    left: 50%;
+    height: 158px;
+    background: rgba(255, 255, 255, 0.4);
+    width: 1px
+}
+
+.annotation-container {
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.5s ease-in-out
+}
+
+.annotation-container.show {
+    visibility: visible;
+    opacity: 1
+}
+
+.hotspot-label {
+    width: 12px;
+    height: 12px
+}
+
+.hotspot-label:before {
+    content: '';
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
+    background: #EB5154;
+    -webkit-animation: pulsate-fwd 0.8s ease-in-out infinite both;
+    -moz-animation: pulsate-fwd 0.8s ease-in-out infinite both;
+    animation: pulsate-fwd 0.8s ease-in-out infinite both
+}
+
+.hotspot-label:after {
+    content: '';
+    position: absolute;
+    top: calc(100%);
+    left: 50%;
+    transform: translateX(-50%);
+    height: 50px;
+    background: rgba(255, 255, 255, 0.4);
+    width: 1px
+}
+
+.static-level--cta {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    padding: 19px;
+    border: 0;
+    border-radius: 50%;
+    background-color: #EB5154;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.12), 0 6px 6px 0 rgba(0, 0, 0, 0.24)
+}
+
+.static-level--cta:focus {
+    outline: none
+}
+
+.static-level--cta--icon {
+    display: block
+}
+
+.static-level--cta--icon path {
+    stroke: #ffffff
+}
+
+.canvas {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    overflow: hidden
+}
+
+.canvas:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    outline: 5px solid #f00
+}
+
+.pano {
+    height: 100%
+}
+
+.pano-img {
+    height: 100%;
+    transition: transform 50ms ease-out;
+    will-change: transform;
+    max-width: none
+}
+
+.log {
+    color: #c11;
+    margin: auto;
+    text-align: center;
+    white-space: pre;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8)
+}
+
+.nav-toggle {
+    cursor: pointer;
+    display: inline-block;
+}
+
+.nav-toggle:focus {
+    outline: 2px solid #fff;
+}
+
+#main-nav-toggle {
+    position: absolute;
+    left: -999em;
+}
+
+#main-nav-toggle:checked~nav.main-nav {
+    display: flex;
+    opacity: 1;
+    pointer-events: all;
+}
+
+nav.main-nav {
+    transition: 0.3s opacity;
+    align-items: center;
+    background: #151515;
+    font-family: tenez, serif;
+    justify-content: center;
+    display: flex;
+    height: 100%;
+    left: 0px;
+    opacity: 0;
+    pointer-events: none;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+}
+
+@media only screen and (min-width: 961px) {
+    .main-nav__canvas {
+        display: block;
+        height: 100%;
+        left: 0px;
+        position: fixed;
+        top: 0px;
+        width: 100%;
+        z-index: 100;
+        opacity: 0.5;
+    }
+}
+
+.henav {
+    display: block;
+    height: 100%;
+    left: 0px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 99;
+    background-image: url(https://notre-dame-de-paris-1257401906.cos.ap-chengdu.myqcloud.com/webp/final.webp);
+    background-size: cover;
+    background-position: 50% 99%;
+}
+
+.main-nav__close {
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 2rem;
+    z-index: 101;
+    cursor: pointer;
+    fill: #df8f56;
+}
+
+.ath-container {
+	position: fixed;
+	display: none;
+	flex-direction: column;
+	z-index: 1000;
+	width: 100%;
+	background-color: #eee;
+	color: #000;
+	padding: 1%;
+	text-align: center;
+}
+.ad2hs-prompt {
+    display: none;
+    width: 800px;
+    background-color: #fff;
+    color: #333;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    text-align: center;
+    text-decoration: none;
+    position: fixed;
+    bottom: 0;
+    justify-content: flex-end;
+    flex-direction: column;
+    flex-grow: 1;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+  }
+.btn-link {
+    font-weight: 400;
+	color: #007bff;
+    background-color: #ffffff;
+    border: 1px solid #007bff5c!important;
+}
+.btn-link:hover{
+	background-color: #e7e7e7;
+}
+.btn-success {
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+}
+.btn-success:hover{
+	background-color: #86bd93;
+}
+.ath-banner {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	position: relative;
+}
+
+.ath-banner-title {
+	width: calc(100% - 140px);
+	text-align: center;
+	font-size: 1rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.ath-banner-cell-2x,
+.ath-banner-cell {
+	width: 70px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.ath-banner-cell-2x {
+	width: 120px;
+}
+
+.log-target {
+	overflow-wrap: break-word;
+}
+
+
+.banner-top-left {
+	top: 0;
+	left: 0;
+}
+
+.banner-top-right {
+	top: 0;
+	right: 0;
+}
+
+.banner-bottom-left {
+	left: 0;
+	bottom: 0;
+}
+
+.banner-bottom-right {
+	right: 0;
+	bottom: 0;
+}
+
+.banner-center {
+	left: 25%;
+	top: 25%;
+}
+
+.banner-center-left {
+	top: 25%;
+	left: 0;
+}
+
+.banner-center-right {
+	top: 25%;
+	right: 0;
+}
+
+.banner-top-center {
+	width: 50%;
+	left: 25%;
+	top: 12px;
+}
+
+.banner-bottom-center {
+	bottom: 12px;
+}
+
+.ath-guidance img {
+	position: absolute;
+	bottom: 0;
+}
+
+
+@media (min-width: 576px) {
+
+	.banner-dialog-centered {
+		min-height: calc(100% - 3.5rem);
+	}
+
+	.ath-banner-cell {
+		width: 90px;
+		margin: 3px;
+	}
+
+}
+
+@media(min-width: 768px) {
+
+	.ath-banner-title {
+		width: calc(100% - 360px);
+	}
+
+	.ath-banner-cell-2x,
+	.ath-banner-cell {
+		width: 120px;
+	}
+
+	.ath-banner-cell-2x {
+		width: 160px;
+	}
+
+}
+
+@media (min-width: 992px) {
+
+	.banner-lg {
+		width: 50%;
+	}
+
+	.banner-lg-top-center {
+		left: 25%;
+		top: 12px;
+	}
+
+	.banner-lg-bottom-center {
+		left: 25%;
+		bottom: 12px;
+	}
+	.ath-container img {
+		left: 15%;
+    }
+    
+
+}
+
+
+
+.edge-wrapper,
+.firefox-wrapper,
+.samsung-wrapper,
+.opera-home-screen-wrapper {
+	opacity: 0;
+}
+
+.firefox-wrapper,
+.samsung-wrapper,
+.opera-home-screen-wrapper {
+	bottom: 21px;
+}
+
+.opera-home-screen-wrapper {
+	width: 100%;
+	max-width: 483px;
+	right: 6px;
+	left: auto;
+}
+
+.ipad-wrapper img {
+	position: absolute;
+	top: 0;
+}
+
+.animated.delay-7s {
+	animation-delay: 7s;
+}
+
+.overlay-1 {
+	z-index: 2020;
+}
+
+.overlay-2 {
+	z-index: 2040;
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .3s ease;
+}
+
+.ath-container p {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	z-index: 2147483642;
+	text-shadow: 0 0.1em 0 #fff;
+	font-size: 1.1em;
+}
+
+@-webkit-keyframes move-up {
+    0% {
+      top: 25px;
+      opacity: 1;
+    }
+    100% {
+      top: -50px;
+      opacity: 0;
+    }
+  }
+  
+  @-moz-keyframes move-up {
+    0% {
+      top: 25px;
+      opacity: 1;
+    }
+    100% {
+      top: -50px;
+      opacity: 0;
+    }
+  }
+  
+  @keyframes move-up {
+    0% {
+      top: 25px;
+      opacity: 1;
+    }
+    100% {
+      top: -50px;
+      opacity: 0;
+    }
+  }
+  
+  @keyframes bounceInUp {
+    from,
+    60%,
+    75%,
+    90%,
+    to {
+      animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    }
+    from {
+      opacity: 0;
+      transform: translate3d(0, 3000px, 0);
+    }
+    60% {
+      opacity: 1;
+      transform: translate3d(0, -20px, 0);
+    }
+    75% {
+      transform: translate3d(0, 10px, 0);
+    }
+    90% {
+      transform: translate3d(0, -5px, 0);
+    }
+    to {
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  .bounceInUp {
+    animation-name: bounceInUp;
+  }
+  
+  .btn {
+    border: none;
+    border-radius: 2px;
+    display: inline-block;
+    height: 36px;
+    line-height: 36px;
+    padding: 0 16px;
+    text-transform: uppercase;
+    vertical-align: middle;
+    -webkit-tap-highlight-color: transparent;
+    font-size: 14px;
+    outline: 0;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: .5px;
+  }
+  
+  .btn-premium {
+    color: #ECC400;
+    background-color: #fff;
+  }
+  @media (max-width: 960px) {
+    .ad2hs-prompt :last-child{
+        margin:auto auto auto 15px
+    }
+
+    .ad2hs-prompt {
+        display: none;
+        width: 100%;
+        background-color: #fff;
+        color: #333;
+        text-align: center;
+        text-decoration: none;
+        padding: 10px 0;
+        position: fixed;
+        bottom: 0;
+        justify-content: flex-end;
+        flex-direction: column;
+        flex-grow: 1;
+        animation-duration: 1s;
+        animation-fill-mode: both;
+      }
+}
+
+  
+  .ad2hs-prompt:hover {
+    box-shadow: 0 0 0 0 0.25rem;
+  }
+  
+  .ad2hs-prompt a:focus {
+    text-decoration: underline;
+  }
+  
+  .ad2hs-prompt:focus-within {
+    box-shadow: 0 0 0 0.25rem;
+  }
+  
+  .ad2hs-prompt:focus-within a:focus {
+    text-decoration: none;
+  }
+  
+  .ad2hs-prompt H1 {
+    font-size: 2em;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .ad2hs-prompt .btn {
+    align-self: flex-end;
+    margin-right: 5%;
+  }
+  
+  .ad2hs-prompt > * + * {
+    margin-top: 0.75rem;
+  }
+  
+  .ad2hs-prompt :last-child {
+    margin:auto
+  }
