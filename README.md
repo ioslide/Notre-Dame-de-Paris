@@ -11,8 +11,8 @@
 ## Preview
 
 <div>
-	<img src="https://notre-dame-de-paris-1257401906.cos.ap-chengdu.myqcloud.com/3.png">
-	<img src="https://notre-dame-de-paris-1257401906.cos.ap-chengdu.myqcloud.com/4.png">
+	<img src="https://notre-dame-de-paris-1257401906.cos.ap-chengdu.myqcloud.com/3.jpg">
+	<img src="https://notre-dame-de-paris-1257401906.cos.ap-chengdu.myqcloud.com/4.jpg">
 </div>
 
 
